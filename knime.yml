@@ -1,0 +1,24 @@
+name: SupplyChainNode # Will be concatenated with the group_id to an ID
+author: Luka Filipovic, Octavio Mesa, FoodDecide
+# env_yml_path: <path/to/the/conda_env.yml> # This is necessary for bundling, but not needed during development
+extension_module: my_extension # The .py Python module containing the nodes of your extension
+description: Supply chain node # Human readable bundle name / description
+long_description: Supply chain node - FoodDecide
+group_id: org.fooddecide
+# group_id: org.tutorial
+version: 0.1.0 # Version of this Python node extension
+vendor: FoodDecide project
+# license_file: LICENSE.TXT # Best practice: put your LICENSE.TXT next to the knime.yml; otherwise you would need to change to path/to/LICENSE.txt
+
+env_yml_path: C:/Users/omesa/OneDrive/Escritorio/Nueva carpeta/my_conda_env.yml
+
+# env_yml_path:
+#   osx-64: C:\Users\Luka\Google Drive\0_UDG\3. FoodDecide - sa FoodHub\2023 maps\03 combined\2. knime\env_yml_1.yml
+#   osx-arm64: C:\Users\Luka\Google Drive\0_UDG\3. FoodDecide - sa FoodHub\2023 maps\03 combined\2. knime\env_yml_1.yml
+#   linux-64: C:\Users\Luka\Google Drive\0_UDG\3. FoodDecide - sa FoodHub\2023 maps\03 combined\2. knime\env_yml_1.yml
+#   win-64: C:\Users\Luka\Google Drive\0_UDG\3. FoodDecide - sa FoodHub\2023 maps\03 combined\2. knime\env_yml_1.yml
+
+
+# feature_dependencies:
+#   # - org.knime.features.chem.types 4.7.0 # If you want to specify the version
+#   - org.knime.features.chem.types       # If the version does not matter
